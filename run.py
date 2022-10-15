@@ -4,6 +4,7 @@ import sys
 from app_through.NWPU import nwpuapp
 if __name__ == '__main__':
     exec_state = False
+    print(sys.argv[1], sys.argv[2],sys.argv[3])
     if (len(sys.argv) != 1):
         login(sys.argv[1], sys.argv[2])
         exec_state = tianbao(sys.argv[1])
