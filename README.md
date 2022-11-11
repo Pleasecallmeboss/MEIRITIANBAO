@@ -25,10 +25,10 @@ pip install -r requirement.txt
 1. Star仓库(可选)，Follow作者(可选),fork该仓库
 
 2. 在仓库的Setting->Secrets->Actions->*New repository(不是Environment secrets切记)*添加环境变量，依次为NAME,PASSWORD,PUSHDEER  
-该字段名字、顺序不可有误
-NAME     为学号
-PASSWORD 为账号密码
-PUSHDEER 为PushDeer软件的key
+该字段名字、顺序不可有误  
+NAME     为学号  
+PASSWORD 为账号密码  
+PUSHDEER 为PushDeer软件的key  
 *PushDeer需要使用轻应用，不能使用APP版*
 
 3. 如果需要本地调试，clone代码后在setting.py文件内输入字段对应的值
