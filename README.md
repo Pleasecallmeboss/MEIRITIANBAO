@@ -18,7 +18,9 @@ device_id可以通过抓取APP登录获得，不理解可以无视该模块
 
 ## 安装依赖
 
+```shell
 pip install -r requirement.txt
+```
 
 ## 使用
 
